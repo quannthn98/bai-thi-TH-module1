@@ -24,6 +24,6 @@ class Animal {
     }
 
     toString() {
-        return document.write("This animal's name is: " + this.name + ", it's weight is: " + this.weight);
+        return document.write("This animal's name is: " + this.getName() + ", it's weight is: " + this.getWeight());
     }
 }

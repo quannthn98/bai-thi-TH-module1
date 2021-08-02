@@ -12,10 +12,11 @@ function checkVowel(string) {
             }
         }
     }
+
     if (stringsVowel.length == 0) {
         document.write('Your input string: ' + '"' + string + '"' + ' dont contain any vowel')
     } else {
-        document.write('Your input string: ' + '"' + string + '"' + ' have vowel(s) are ' + stringsVowel)
+        document.write('Your input string: ' + '"' + string + '"' + ' have ' + count +' vowel(s) is/are ' + stringsVowel.join(", "))
     }
 }
 
