@@ -13,6 +13,7 @@ function findNum(number, arr) {
             isInArray = false;
         }
     }
+
     if (isInArray) {
         document.write(number + ' is in the array at position ' + index);
     } else {
